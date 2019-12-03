@@ -14,7 +14,7 @@
     <h6 class="card-subtitle mb-2 text-muted">{{$student->email}}</h6>
     <p class="card-text">{{$student->nrp}}</p>
     <p class="card-text">{{$student->jurusan}}</p>
-    <a href="/students/edit/{{$student->id}}" class="btn btn-success">Ubah</a>
+    <a href="/students/edit/{{$student->id}}" class="btn btn-success">Edit</a>
     <a href="/students/destroy/{{$student->id}}" class="btn btn-danger">Delete</a>
     <a href="/students" class="card-link">Kembali</a>
   </div>
